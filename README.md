@@ -55,7 +55,7 @@ Here's an example of a concise FizzBuzz implementation in JavaScript:
 
 ```js
 for (let i = 1; i <= 100; i++) {
-  console.log((i % 3 === 0 ? 'Fizz' : '') + (i % 5 === 0 ? 'Buzz' : '') || i);
+  console.log(((i % 3 === 0 ? 'Fizz' : '') + (i % 5 === 0 ? 'Buzz' : '')) || i);
 }
 ```
 
